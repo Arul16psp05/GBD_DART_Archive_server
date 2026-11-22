@@ -100,15 +100,16 @@ class CustomDirectoryHandler(http.server.SimpleHTTPRequestHandler):
         
         r.append('''
         <style>
-            body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #0b0f19; color: #e2e8f0; padding: 30px; }
-            a { color: #38bdf8; text-decoration: none; font-weight: bold; }
+            body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; background-color: #f4f6f9; color: #1f2937; padding: 30px; }
+            h2 { color: #003366; border-bottom: 2px solid #003366; padding-bottom: 8px; max-width: 900px; }
+            a { color: #1d4ed8; text-decoration: none; font-weight: 600; }
             a:hover { text-decoration: underline; }
-            table { width: 100%; max-width: 900px; border-collapse: collapse; margin-top: 20px; background: #1e293b; border-radius: 8px; overflow: hidden;}
-            th, td { text-align: left; padding: 12px 15px; border-bottom: 1px solid #334155; }
-            th { background-color: #0f172a; color: #94a3b8; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
-            tr:hover { background-color: #0f172a; }
-            .back-btn { background: #4f46e5; color: white; padding: 8px 15px; border-radius: 4px; display: inline-block; margin-bottom: 20px; font-size: 0.9rem; }
-            .back-btn:hover { background: #4338ca; color: white; text-decoration: none; }
+            table { width: 100%; max-width: 900px; border-collapse: collapse; margin-top: 20px; background: #ffffff; border: 1px solid #d1d5db; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+            th, td { text-align: left; padding: 12px 15px; border-bottom: 1px solid #e5e7eb; }
+            th { background-color: #003366; color: #ffffff; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+            tr:hover { background-color: #f8fafc; }
+            .back-btn { background: #003366; color: #ffffff; padding: 8px 15px; border-radius: 4px; display: inline-block; margin-bottom: 20px; font-size: 0.9rem; }
+            .back-btn:hover { background: #002244; color: #ffffff; text-decoration: none; }
         </style>
         ''')
         r.append('</head><body>')
